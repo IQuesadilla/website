@@ -1,0 +1,34 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+ul {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    background-color: grey;
+    color: black;
+    width: 33.333%;
+    float: left;
+    display: block;
+    padding: 10px 0px;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li:hover {
+    color: white;
+    background-color: black;
+}
