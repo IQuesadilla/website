@@ -1,11 +1,22 @@
+/*
+    #DCDCDD
+    #C5C3C6
+    #46494C
+    #4C5C68
+    #1985A1
+*/
+
 html, body {
     margin: 0px;
     padding: 0px;
+    background-color: #DCDCDD;
 }
 
 h1 {
     text-align: center;
-    margin: 10px 0px;
+    padding: 20px 0px;
+    margin: 0px;
+    background-color: #1985A1;
 }
 
 ul {
@@ -15,9 +26,9 @@ ul {
 }
 
 li {
-    background-color: grey;
-    color: black;
-    width: 33.333%;
+    background-color: #46494C;
+    color: #c5c3c6;
+    width: 25%;
     float: left;
     display: block;
     padding: 10px 0px;
@@ -29,6 +40,23 @@ li {
 }
 
 li:hover {
-    color: white;
-    background-color: black;
+    color: #DCDCDD;
+    background-color: #4C5C68;
+}
+
+div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px;
+    width: 400px;
+    min-height: 300px;
+    float: left;
+    text-align: justify;
+}
+
+p {
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
 }
