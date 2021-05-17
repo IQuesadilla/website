@@ -73,3 +73,23 @@ iframe {
     max-height: 40em;
     border: none;
 }
+
+input, textarea {
+    height: 2em;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.contactform {
+    padding: 2em;
+    margin: auto;
+    display: block;
+    max-width: 35%;
+    min-width: 800px;
+}
+
+#message {
+    height: 10em;
+    max-height: 20em;
+}

@@ -12,6 +12,16 @@
             <a href="./about.html"><li>About Me</li></a>
             <a href="./contact.html"><li>Contact</li></a>
         </ul>
-        <iframe src="./contactform.html"></iframe>
+        <form class="contactform" action="https://formspree.io/f/xbjqgzoq" method="POST">
+            <label>Name</label>
+            <input type="text" name="name">
+            <label>Email</label>
+            <input type="email" name="_replyto">
+            <label>Subject</label>
+            <input type="text" name="subject">
+            <label>Message</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </div>
     </body>
 </html>
